@@ -6,4 +6,7 @@ venv/
 instance/
 instance/config.py
 *.pyc
+FLASK_ENV
+FLASK_APP
+
 

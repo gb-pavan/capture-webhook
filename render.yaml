@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: github-webhook-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn wsgi:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - fromDotEnv: true

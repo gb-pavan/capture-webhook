@@ -9,4 +9,9 @@ Werkzeug==3.1.3
 pymongo
 dnspython
 python-dotenv
+gunicorn
+flask
+flask-limiter
+flask-cors
+flask-pymongo
 
